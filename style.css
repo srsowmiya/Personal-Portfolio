@@ -285,6 +285,18 @@ html, body {
   height: 100%;
   overflow-x: hidden;
 }
+@media (max-width: 1440px) {
+  .prolist {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 20px; 
+  }
+
+  .portfo, .hospital {
+    margin-left: 0; 
+  }
+}
+
 
 
 
