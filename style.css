@@ -289,7 +289,7 @@ html, body {
   .prolist {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
-    gap: 10px; 
+    gap: 2px; 
   }
 
   .portfo, .hospital {
