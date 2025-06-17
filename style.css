@@ -285,17 +285,12 @@ html, body {
   height: 100%;
   overflow-x: hidden;
 }
-@media (max-width: 1440px) {
-  .prolist {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
-    gap: 2px; 
-  }
 
-  .portfo, .hospital {
-    margin-left: 0; 
+   @media (min-width: 1024px) {
+  .prolist {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
-   .a{
+        .a{
       margin-left:500px;
    }
 }
